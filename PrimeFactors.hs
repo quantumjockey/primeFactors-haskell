@@ -1,7 +1,9 @@
 module PrimeFactors where
 
 primes :: Int => [Int]
-primes num
-	| (num == 1) = []
-	| (mod num 2 == 0) = 2:primes(quot num 2)
-	| otherwise = [num]
+primes num = factorThis num 2
+	where
+		factorThis num divisor
+			| (num == 1) = []
+			| (mod num divisor == 0) = divisor:primes(quot num divisor)
+			| otherwise = factorThis num (divisor + 1)
