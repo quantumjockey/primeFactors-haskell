@@ -10,9 +10,9 @@ main = hspec $ do
 		  it "returns an empty list" $ do
 		    primes 1 `shouldBe` ([] :: [Int])
 
-		--context "when given 2" $ do
-		--  it "returns [2]" $ do
-		--    primes 2 `shouldBe` ([2] :: [Int])
+		context "when given 2" $ do
+		  it "returns [2]" $ do
+		    primes 2 `shouldBe` ([2] :: [Int])
 
 		--context "when given 3" $ do
 		--  it "returns [3]" $ do
