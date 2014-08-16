@@ -34,9 +34,9 @@ main = hspec $ do
 		  it "returns [2,2,2]" $ do
 		    primes 8 `shouldBe` ([2,2,2] :: [Int])
 
-		--context "when given 9" $ do
-		--  it "returns [3,3]" $ do
-		--    primes 9 `shouldBe` ([3,3] :: [Int])
+		context "when given 9" $ do
+		  it "returns [3,3]" $ do
+		    primes 9 `shouldBe` ([3,3] :: [Int])
 
 		--context "when given 10" $ do
 		--  it "returns [2,5]" $ do
