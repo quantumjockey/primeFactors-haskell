@@ -26,9 +26,9 @@ main = hspec $ do
 		  it "returns [5]" $ do
 		    primes 5 `shouldBe` ([5] :: [Int])
 
-		--context "when given 6" $ do
-		--  it "returns [2,3]" $ do
-		--    primes 6 `shouldBe` ([2,3] :: [Int])
+		context "when given 6" $ do
+		  it "returns [2,3]" $ do
+		    primes 6 `shouldBe` ([2,3] :: [Int])
 
 		--context "when given 8" $ do
 		--  it "returns [2,2,2]" $ do
