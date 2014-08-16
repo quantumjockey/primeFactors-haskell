@@ -46,9 +46,9 @@ main = hspec $ do
 		  it "returns [2,2,3]" $ do
 		    primes 12 `shouldBe` ([2,2,3] :: [Int])
 
-		--context "when given 27" $ do
-		--  it "returns [3,3,3]" $ do
-		--    primes 27 `shouldBe` ([3,3,3] :: [Int])
+		context "when given 27" $ do
+		  it "returns [3,3,3]" $ do
+		    primes 27 `shouldBe` ([3,3,3] :: [Int])
 
 		--context "when given 56" $ do
 		--  it "returns [2,2,2,7]" $ do
