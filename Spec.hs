@@ -50,42 +50,42 @@ main = hspec $ do
 		  it "returns [3,3,3]" $ do
 		    primes 27 `shouldBe` ([3,3,3] :: [Int])
 
-		--context "when given 56" $ do
-		--  it "returns [2,2,2,7]" $ do
-		--    primes 56 `shouldBe` ([2,2,2,7] :: [Int])
+		context "when given 56" $ do
+		  it "returns [2,2,2,7]" $ do
+		    primes 56 `shouldBe` ([2,2,2,7] :: [Int])
 
-		--context "when given 64" $ do
-		--  it "returns [2,2,2,2,2,2]" $ do
-		--    primes 64 `shouldBe` ([2,2,2,2,2,2] :: [Int])
+		context "when given 64" $ do
+		  it "returns [2,2,2,2,2,2]" $ do
+		    primes 64 `shouldBe` ([2,2,2,2,2,2] :: [Int])
 
-		--context "when given 64" $ do
-		--  it "returns [2,2,2,2,2,2]" $ do
-		--    primes 64 `shouldBe` ([2,2,2,2,2,2] :: [Int])
+		context "when given 64" $ do
+		  it "returns [2,2,2,2,2,2]" $ do
+		    primes 64 `shouldBe` ([2,2,2,2,2,2] :: [Int])
 
-		--context "when given 196" $ do
-		--  it "returns [2,2,7,7]" $ do
-		--    primes 196 `shouldBe` ([2,2,7,7] :: [Int])
+		context "when given 196" $ do
+		  it "returns [2,2,7,7]" $ do
+		    primes 196 `shouldBe` ([2,2,7,7] :: [Int])
 
-		--context "when given 1137" $ do
-		--  it "returns [3,379]" $ do
-		--    primes 1137 `shouldBe` ([3,379] :: [Int])
+		context "when given 1137" $ do
+		  it "returns [3,379]" $ do
+		    primes 1137 `shouldBe` ([3,379] :: [Int])
 
-		--context "when given 3569" $ do
-		--  it "returns [43,83]" $ do
-		--    primes 3569 `shouldBe` ([43,83] :: [Int])
+		context "when given 3569" $ do
+		  it "returns [43,83]" $ do
+		    primes 3569 `shouldBe` ([43,83] :: [Int])
 
-		--context "when given 5000" $ do
-		--  it "returns [2,2,2,5,5,5,5]" $ do
-		--    primes 5000 `shouldBe` ([2,2,2,5,5,5,5] :: [Int])
+		context "when given 5000" $ do
+		  it "returns [2,2,2,5,5,5,5]" $ do
+		    primes 5000 `shouldBe` ([2,2,2,5,5,5,5] :: [Int])
 
-		--context "when given 104729" $ do
-		--  it "returns [104729]" $ do
-		--    primes 104729 `shouldBe` ([104729] :: [Int])
+		context "when given 104729" $ do
+		  it "returns [104729]" $ do
+		    primes 104729 `shouldBe` ([104729] :: [Int])
 
-		--context "when given 1299827" $ do
-		--  it "returns [1299827]" $ do
-		--    primes 1299827 `shouldBe` ([1299827] :: [Int])
+		context "when given 1299827" $ do
+		  it "returns [1299827]" $ do
+		    primes 1299827 `shouldBe` ([1299827] :: [Int])
 
-		--context "when given 10398616" $ do
-		--  it "returns [2,2,2,1299827]" $ do
-		--    primes 10398616 `shouldBe` ([2,2,2,1299827] :: [Int])
+		context "when given 10398616" $ do
+		  it "returns [2,2,2,1299827]" $ do
+		    primes 10398616 `shouldBe` ([2,2,2,1299827] :: [Int])
