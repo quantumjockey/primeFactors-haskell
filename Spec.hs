@@ -6,9 +6,9 @@ main = hspec $ do
 
 	describe "Should generate prime factors" $ do
 
-		--context "when given 1" $ do
-		--  it "returns an empty list" $ do
-		--    primes 1 `shouldBe` ([] :: [Int])
+		context "when given 1" $ do
+		  it "returns an empty list" $ do
+		    primes 1 `shouldBe` ([] :: [Int])
 
 		--context "when given 2" $ do
 		--  it "returns [2]" $ do
